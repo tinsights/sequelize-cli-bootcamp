@@ -1,7 +1,7 @@
 import { Sequelize } from 'sequelize';
 import allConfig from '../config/config.js';
 
-// import model files here
+// import model functions here
 
 const env = process.env.NODE_ENV || 'development';
 const config = allConfig[env];
